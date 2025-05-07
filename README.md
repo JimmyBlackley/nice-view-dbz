@@ -1,7 +1,7 @@
 # nice-view-mod
 Fork but adding a small DBZ Trunks aniamtion
 
-[Other Examples](https://github.com/duckyb/zmk-urchin) with build actions set up to build your firmware with github actions and is of course meant for boards with the nice!view. P
+[Other Examples](https://github.com/duckyb/zmk-urchin) with build actions set up to build your firmware with github actions and is of course meant for boards with the nice!view.
 
 ![example](/assets/trunks.gif)
 
@@ -42,11 +42,4 @@ manifest:
 simply swap out the default nice_view shield on the board for the custom one in your build.yaml file.
 
 Sofle58 users just change the right board, since the left board usually is used for status info
-```yml
----
-include:
-  - board: nice_nano_v2
-    shield: urchin_left nice_view_adapter  nice_view_custom #custom shield
-  - board: nice_nano_v2
-    shield: urchin_right nice_view_adapter nice_view_custom #custom shield
-```
+
