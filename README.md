@@ -1,19 +1,15 @@
 # nice-view-mod
-Fork but adding a small DBZ Trunks aniamtion
-
-[Other Examples](https://github.com/duckyb/zmk-urchin) with build actions set up to build your firmware with github actions and is of course meant for boards with the nice!view.
-
+Fork of [GPeye's nice-view-repo](https://github.com/GPeye/nice-view-mod)
 ![example](/assets/trunks.gif)
 
 For a complete example of forking and editing this repo to make a custom nice_view shield with custom animations, check out [https://github.com/GPeye/urchin-peripheral-animation](https://github.com/GPeye/urchin-peripheral-animation)
 
-## TODO:
 
-- Add dithering
-- Work on automating pipeline of Video -> B/W -> 1bit with dither -> png frames -> rotate and LVGL 1bit color
-- Make tool to automatically add all the individual LVGL frames to the art.c
-- Add more branches to this repo with more animations
-- Test limits of how many frames can be added before keyboard breaks (I am using a nice-nano v1)
+SOFLE58 users read:
+
+- fork [this repo](https://github.com/a741725193/zmk-sofle)
+- clone code
+- change your keymap as need
 
 
 ## Usage
@@ -41,5 +37,13 @@ manifest:
 ```
 simply swap out the default nice_view shield on the board for the custom one in your build.yaml file.
 
-Sofle58 users just change the right board, since the left board usually is used for status info
+
+## TODO:
+
+- Add dithering
+- Work on automating pipeline of Video -> B/W -> 1bit with dither -> png frames -> rotate and LVGL 1bit color
+- Make tool to automatically add all the individual LVGL frames to the art.c
+- Add more branches to this repo with more animations
+- Test limits of how many frames can be added, and animation fps before keyboard breaks (I am using a nice-nano v1)
+
 
