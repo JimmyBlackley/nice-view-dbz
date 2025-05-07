@@ -11,6 +11,7 @@ SOFLE58 users read:
 - fork [this repo](https://github.com/a741725193/zmk-sofle)
 - clone code
 - change your keymap as need
+- (clone GPeye/nice-view-mod to make your own, or) update the west.yml as below
 
 
 ## Usage
