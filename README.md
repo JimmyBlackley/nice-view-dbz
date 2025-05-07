@@ -1,5 +1,6 @@
 # nice-view-mod
 Fork of [GPeye's nice-view-repo](https://github.com/GPeye/nice-view-mod)
+
 ![example](/assets/trunks.gif)
 
 For a complete example of forking and editing this repo to make a custom nice_view shield with custom animations, check out [https://github.com/GPeye/urchin-peripheral-animation](https://github.com/GPeye/urchin-peripheral-animation)
@@ -35,7 +36,7 @@ manifest:
   self:
     path: config
 ```
-simply swap out the default nice_view shield on the board for the custom one in your build.yaml file.
+simply swap out the default yaml path for this one to get trunks on your kb.
 
 
 ## TODO:
